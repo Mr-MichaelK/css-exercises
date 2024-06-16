@@ -2,16 +2,17 @@ p.odd {
     background-color: #f7003663;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
+
 .big {
     font-size: 24px;
 }
-div {
-    font-weight: bold;
-}
+
 #second {
     color: rgb(0, 64, 255);
     font-size: 36px;
 }
+
 #fourth {
     background-color: rgba(47, 255, 0, 0.513);
+    font-weight: bold;
 }
