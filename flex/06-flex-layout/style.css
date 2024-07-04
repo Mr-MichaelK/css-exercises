@@ -18,7 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 input {
@@ -29,6 +29,8 @@ input {
 }
 
 ul {
+  display: flex;
+  gap: 16px;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -46,24 +48,16 @@ ul {
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
-}
-
-.left-links,
-.right-links {
-  display: flex;
-  gap: 15px;
+  justify-content: center;
+  gap: 16px;
 }
 
 a {
   color: rgb(106, 106, 106);
   font-weight: bold;
   text-decoration: none;
-}
-
-.buttons {
-  padding: 15px;
 }
